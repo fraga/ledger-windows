@@ -1,3 +1,6 @@
 [submodule "ledger"]
 	path = ledger
 	url = https://github.com/ledger/ledger
+[submodule "Dependencies/mpir"]
+	path = Dependencies/mpir
+	url = https://github.com/wbhart/mpir
