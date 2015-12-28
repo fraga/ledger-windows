@@ -7,3 +7,6 @@
 [submodule "Dependencies/mpfr"]
 	path = Dependencies/mpfr
 	url = https://github.com/BrianGladman/mpfr
+[submodule "Dependencies/boost"]
+	path = Dependencies/boost
+	url = https://github.com/boostorg/boost
