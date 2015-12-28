@@ -64,7 +64,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeOutput>ledger-windows.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>$(SolutionDir)Dependencies\mpir\lib\Win32\Debug;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Dependencies\mpfr\lib\Win32\Debug;$(SolutionDir)Dependencies\mpir\lib\Win32\Debug;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeOutput>ledger-windows.exe</NMakeOutput>
