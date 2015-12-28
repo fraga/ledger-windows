@@ -4,3 +4,6 @@
 [submodule "Dependencies/mpir"]
 	path = Dependencies/mpir
 	url = https://github.com/wbhart/mpir
+[submodule "Dependencies/mpfr"]
+	path = Dependencies/mpfr
+	url = https://github.com/BrianGladman/mpfr
