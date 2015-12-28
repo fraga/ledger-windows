@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ledger-windows", "ledger-wi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{0DAF854F-F81F-4186-8A67-5DF103D40D30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_mpir_gc", "Dependencies\mpir\build.vc14\lib_mpir_gc\lib_mpir_gc.vcxproj", "{60E2A413-43CC-45BE-86F1-67C950664B57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,8 +25,19 @@ Global
 		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x64.Build.0 = Release|x64
 		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x86.ActiveCfg = Release|Win32
 		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x86.Build.0 = Release|Win32
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x64.ActiveCfg = Debug|x64
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x64.Build.0 = Debug|x64
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x86.ActiveCfg = Debug|Win32
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x86.Build.0 = Debug|Win32
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Release|x64.ActiveCfg = Release|x64
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Release|x64.Build.0 = Release|x64
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Release|x86.ActiveCfg = Release|Win32
+		{60E2A413-43CC-45BE-86F1-67C950664B57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60E2A413-43CC-45BE-86F1-67C950664B57} = {0DAF854F-F81F-4186-8A67-5DF103D40D30}
 	EndGlobalSection
 EndGlobal
