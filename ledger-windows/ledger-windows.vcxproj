@@ -62,7 +62,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeOutput>ledger-windows.exe</NMakeOutput>
+    <NMakeOutput>ledger.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <IncludePath>$(SolutionDir)Dependencies\mpfr\lib\Win32\Debug;$(SolutionDir)Dependencies\mpir\lib\Win32\Debug;$(IncludePath)</IncludePath>
   </PropertyGroup>
