@@ -1,0 +1,17 @@
+cmake ^
+    -DCMAKE_BUILD_TYPE:STRING="Debug" ^
+    -DMPFR_LIB:FILEPATH="../Dependencies/mpfr" ^
+    -DGMP_LIB:FILEPATH="../Dependencies/mpir/lib/win32/debug" ^
+    -DMPFR_PATH:PATH="../Dependencies/mpfr/src" ^
+    -DGMP_PATH:PATH="../Dependencies/mpir" ^
+    -DBUILD_DOCS:BOOL="0" ^
+    -DHAVE_REALPATH:BOOL="0" ^
+    -DHAVE_GETPWUID:BOOL="0" ^
+    -DHAVE_GETPWNAM:BOOL="0" ^
+    -DHAVE_ISATTY:BOOL="0" ^
+    -DBOOST_ROOT:PATH="../Dependencies/boost" ^
+    -DBOOST_INCLUDEDIR:PATH="../Dependencies/boost/boost" ^
+    -DBOOST_LIBRARYDIR:PATH="../Dependencies/boost/stage/lib" ^
+    -DBoost_USE_STATIC_LIBS:BOOL="1" ^
+    -DCMAKE_CXX_FLAGS_RELEASE:STRING="/MT /Zi /Ob0 /Od" ^
+    -G "Visual Studio 14"
