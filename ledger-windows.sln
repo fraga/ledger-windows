@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ledger-windows", "ledger-windows\ledger-windows.vcxproj", "{A16B7454-6903-4193-8F89-B589175D24ED}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{0DAF854F-F81F-4186-8A67-5DF103D40D30}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_mpir_gc", "Dependencies\mpir\build.vc14\lib_mpir_gc\lib_mpir_gc.vcxproj", "{60E2A413-43CC-45BE-86F1-67C950664B57}"
@@ -19,14 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Debug|x64.ActiveCfg = Debug|x64
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Debug|x64.Build.0 = Debug|x64
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Debug|x86.ActiveCfg = Debug|Win32
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Debug|x86.Build.0 = Debug|Win32
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x64.ActiveCfg = Release|x64
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x64.Build.0 = Release|x64
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x86.ActiveCfg = Release|Win32
-		{A16B7454-6903-4193-8F89-B589175D24ED}.Release|x86.Build.0 = Release|Win32
 		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x64.ActiveCfg = Debug|x64
 		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x64.Build.0 = Debug|x64
 		{60E2A413-43CC-45BE-86F1-67C950664B57}.Debug|x86.ActiveCfg = Debug|Win32
