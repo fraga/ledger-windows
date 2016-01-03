@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -23,28 +23,29 @@
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>libledger</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
@@ -56,33 +57,33 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libledger.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libledger.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libledger.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libledger.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libledger.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libledger.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libledger.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libledger.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
@@ -122,7 +123,8 @@
       <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/Debug/libledger.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Debug/libledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -166,7 +168,8 @@
       <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/Release/libledger.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Release/libledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -187,7 +190,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";libledger_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";libledger_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -210,7 +214,8 @@
       <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/MinSizeRel/libledger.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/MinSizeRel/libledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -254,7 +259,8 @@
       <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/RelWithDebInfo/libledger.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/RelWithDebInfo/libledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -317,57 +323,57 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stats.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\generate.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\csv.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\convert.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\draft.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\emacs.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\org.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\ptree.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\print.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\output.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\precmd.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\chain.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\filters.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\report.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\views.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\select.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\session.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\option.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\lookup.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\compare.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\iterators.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\timelog.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\textual.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\temps.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\journal.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\account.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\xact.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\post.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\item.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\format.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\query.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\scope.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\expr.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\op.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\parser.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\token.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\value.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\balance.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\quotes.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\history.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\pool.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\annotate.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\commodity.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\amount.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stream.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\mask.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\times.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\error.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\utils.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\strptime.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\wcwidth.cc"  />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stats.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\generate.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\csv.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\convert.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\draft.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\emacs.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\org.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\ptree.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\print.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\output.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\precmd.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\chain.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\filters.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\report.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\views.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\select.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\session.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\option.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\lookup.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\compare.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\iterators.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\timelog.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\textual.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\temps.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\journal.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\account.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\xact.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\post.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\item.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\format.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\query.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\scope.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\expr.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\op.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\parser.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\token.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\value.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\balance.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\quotes.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\history.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\pool.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\annotate.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\commodity.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\amount.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stream.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\mask.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\times.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\error.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\utils.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\strptime.cc" />
+    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\wcwidth.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ZERO_CHECK.vcxproj">
