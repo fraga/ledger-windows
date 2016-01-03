@@ -64,7 +64,7 @@
 #define HAVE_REALPATH            0
 #define HAVE_GETPWUID            0
 #define HAVE_GETPWNAM            0
-#define HAVE_IOCTL               
+#define HAVE_IOCTL               0
 #define HAVE_ISATTY              0
 
 #define HAVE_UNIX_PIPES          0
