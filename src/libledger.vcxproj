@@ -107,7 +107,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)Dependencies\mpir;$(SolutionDir)Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,10 +149,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\";libledger_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";libledger_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -240,10 +240,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";libledger_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -267,10 +267,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt">
+    <CustomBuild Include="$(SolutionDir)ledger\src\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,12 +278,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,12 +291,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,12 +304,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -317,63 +317,63 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stats.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\generate.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\csv.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\convert.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\draft.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\emacs.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\org.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\ptree.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\print.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\output.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\precmd.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\chain.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\filters.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\report.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\views.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\select.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\session.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\option.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\lookup.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\compare.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\iterators.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\timelog.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\textual.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\temps.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\journal.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\account.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\xact.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\post.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\item.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\format.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\query.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\scope.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\expr.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\op.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\parser.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\token.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\value.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\balance.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\quotes.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\history.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\pool.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\annotate.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\commodity.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\amount.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\stream.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\mask.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\times.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\error.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\utils.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\strptime.cc" />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\wcwidth.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\stats.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\generate.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\csv.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\convert.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\draft.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\emacs.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\org.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\ptree.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\print.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\output.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\precmd.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\chain.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\filters.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\report.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\views.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\select.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\session.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\option.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\lookup.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\compare.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\iterators.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\timelog.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\textual.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\temps.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\journal.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\account.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\xact.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\post.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\item.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\format.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\query.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\scope.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\expr.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\op.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\parser.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\token.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\value.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\balance.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\quotes.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\history.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\pool.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\annotate.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\commodity.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\amount.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\stream.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\mask.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\times.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\error.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\utils.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\strptime.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\wcwidth.cc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(SolutionDir)ZERO_CHECK.vcxproj">
