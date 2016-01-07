@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -56,37 +56,37 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ledger.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ledger.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ledger.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ledger.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ledger</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ledger.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ledger.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ledger.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ledger.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ledger</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost\libs\uuid\include;$(SolutionDir)Dependencies\boost;$(SolutionDir)Dependencies\mpir;$(SolutionDir)Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;$(SolutionDir)Dependencies\boost\libs\ptr_container\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,14 +115,15 @@
     </Midl>
     <Link>
       <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\libledger.lib;../Dependencies/mpfr.lib;../Dependencies/mpir/lib/win32.lib;..\Dependencies\boost\stage\lib\libboost_date_time-vc140-mt-gd-1_56.lib;..\Dependencies\boost\stage\lib\libboost_filesystem-vc140-mt-gd-1_56.lib;..\Dependencies\boost\stage\lib\libboost_system-vc140-mt-gd-1_56.lib;..\Dependencies\boost\stage\lib\libboost_iostreams-vc140-mt-gd-1_56.lib;..\Dependencies\boost\stage\lib\libboost_regex-vc140-mt-gd-1_56.lib;..\Dependencies\boost\stage\lib\libboost_unit_test_framework-vc140-mt-gd-1_56.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib;C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(SolutionDir)lib\$(Platform)\Debug\libledger.lib;$(SolutionDir)lib/$(Platform)/Debug/mpfr.lib;$(SolutionDir)Dependencies/mpir/build.vc14/lib_mpir_gc/$(Platform)/Debug/mpir.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_date_time-vc140-mt-gd-1_56.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_filesystem-vc140-mt-gd-1_56.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_system-vc140-mt-gd-1_56.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_iostreams-vc140-mt-gd-1_56.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_regex-vc140-mt-gd-1_56.lib;$(SolutionDir)Dependencies\boost\stage\lib\libboost_unit_test_framework-vc140-mt-gd-1_56.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies/boost/stage/lib;$(SolutionDir)Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/Debug/ledger.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Debug/ledger.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)lib/win32/ledger.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)lib/win32/ledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -131,7 +132,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost\libs\uuid\include;$(SolutionDir)Dependencies\boost;$(SolutionDir)Dependencies\mpir;$(SolutionDir)Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;$(SolutionDir)Dependencies\boost\libs\ptr_container\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -147,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,13 +161,14 @@
     <Link>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\libledger.lib;../Dependencies/mpfr.lib;../Dependencies/mpir/lib/win32.lib;..\Dependencies\boost\stage\lib\libboost_date_time-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_filesystem-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_system-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_iostreams-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_regex-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_unit_test_framework-vc140-mt-1_56.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib;C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies/boost/stage/lib;$(SolutionDir)Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/Release/ledger.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Release/ledger.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)src/Release/ledger.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Release/ledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -175,7 +177,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost\libs\uuid\include;$(SolutionDir)Dependencies\boost;$(SolutionDir)Dependencies\mpir;$(SolutionDir)Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;$(SolutionDir)Dependencies\boost\libs\ptr_container\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -187,14 +189,15 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,13 +207,14 @@
     <Link>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\libledger.lib;../Dependencies/mpfr.lib;../Dependencies/mpir/lib/win32.lib;..\Dependencies\boost\stage\lib\libboost_date_time-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_filesystem-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_system-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_iostreams-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_regex-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_unit_test_framework-vc140-mt-1_56.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib;C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies/boost/stage/lib;$(SolutionDir)Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/MinSizeRel/ledger.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/MinSizeRel/ledger.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)src/MinSizeRel/ledger.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)MinSizeRel/ledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -219,7 +223,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost\libs\uuid\include;$(SolutionDir)Dependencies\boost;$(SolutionDir)Dependencies\mpir;$(SolutionDir)Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;$(SolutionDir)Dependencies\boost\libs\ptr_container\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\Dependencies\boost;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpir;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\..\Dependencies\mpfr\src;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\boost;$(SolutionDir)ledger\..\Dependencies\mpir;$(SolutionDir)ledger\..\Dependencies\mpfr\src;$(SolutionDir)ledger\lib\utfcpp\v2_0\source;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -248,23 +252,24 @@
     <Link>
       <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\libledger.lib;../Dependencies/mpfr.lib;../Dependencies/mpir/lib/win32.lib;..\Dependencies\boost\stage\lib\libboost_date_time-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_filesystem-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_system-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_iostreams-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_regex-vc140-mt-1_56.lib;..\Dependencies\boost\stage\lib\libboost_unit_test_framework-vc140-mt-1_56.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib;C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies/boost/stage/lib;$(SolutionDir)Dependencies/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/RelWithDebInfo/ledger.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/RelWithDebInfo/ledger.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)src/RelWithDebInfo/ledger.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)RelWithDebInfo/ledger.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt</Message>
+    <CustomBuild Include="$(SolutionDir)ledger\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +277,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +290,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,12 +303,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule $(SolutionDir)ledger/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-H$(SolutionDir)ledger" "-BC:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows" --check-stamp-file "$(SolutionDir)src\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,20 +316,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ledger/src/CMakeLists.txt;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)ledger/src/CMakeLists.txt;$(SolutionDir)ledger\src\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;$(SolutionDir)ledger\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\main.cc"  />
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\global.cc"  />
+    <ClCompile Include="$(SolutionDir)ledger\src\main.cc" />
+    <ClCompile Include="$(SolutionDir)ledger\src\global.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="$(SolutionDir)ZERO_CHECK.vcxproj">
       <Project>8D93D5C7-DD15-338D-89C4-D8B7CA6E914F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/charlie/Documents/Visual Studio 2015/Projects/ledger-windows/src/libledger.vcxproj">
+    <ProjectReference Include="$(SolutionDir)src/libledger.vcxproj">
       <Project>CD9E0D75-1917-3622-AABB-06219A2D8C55</Project>
     </ProjectReference>
   </ItemGroup>

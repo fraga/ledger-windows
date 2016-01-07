@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\main.cc">
+    <ClCompile Include="$(SolutionDir)ledger\src\global.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\global.cc">
+    <ClCompile Include="$(SolutionDir)ledger\src\main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\charlie\Documents\Visual Studio 2015\Projects\ledger-windows\ledger\src\CMakeLists.txt" />
+    <CustomBuild Include="$(SolutionDir)ledger\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
